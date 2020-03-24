@@ -37,7 +37,7 @@ services:
     restart: always
 
   helloworld:
-    image: helloworld
+    image: slavon4ever/helloworld
     container_name: helloworld
     ports:
       - 8080:8080
